@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>meu site</h1>
+
+{% for musica in musicas_do_artista %}
+<h1>{{musica}}</h1>
+<audio controls="controls" src="media/{{musica}}"></audio>
+{% endfor %}
+
+</body>
+</html>
