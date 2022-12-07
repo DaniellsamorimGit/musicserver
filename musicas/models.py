@@ -4,6 +4,8 @@ from .validators import validate_is_audio
 # Create your models here.
 
 
+
+
 class Artista(models.Model):
     nome_artista = models.CharField(max_length=500)
     local_show = models.CharField(max_length=500)

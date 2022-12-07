@@ -6,6 +6,7 @@ from .models import Artista, Faixa
 
 class PostImageAdmin(admin.StackedInline):
     model=Faixa
+    extra = 0
 
 @admin.register(Artista)
 class PostAdmin(admin.ModelAdmin):
